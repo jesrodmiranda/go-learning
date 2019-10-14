@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	greetings :=  []string{"Hello","world!"}
+	greetings := []string{"Hello", "world!"}
 	fmt.Println(strings.Join(greetings, " "))
 }

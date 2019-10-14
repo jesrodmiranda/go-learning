@@ -3,14 +3,15 @@ package main
 import "fmt"
 
 type Books struct {
-	title string
-	author string
+	title   string
+	author  string
 	subject string
-	bookId int
+	bookId  int
 }
+
 func main() {
-	var Book1 Books   /* Declare Book1 of type Book */
-	var Book2 Books   /* Declare Book2 of type Book */
+	var Book1 Books /* Declare Book1 of type Book */
+	var Book2 Books /* Declare Book2 of type Book */
 
 	/* book 1 specification */
 	Book1.title = "Go Programming"
@@ -30,9 +31,9 @@ func main() {
 	/* print Book2 info */
 	printBook(&Book2)
 }
-func printBook( book *Books ) {
-	fmt.Printf( "Book title : %s\n", book.title)
-	fmt.Printf( "Book author : %s\n", book.author)
-	fmt.Printf( "Book subject : %s\n", book.subject)
-	fmt.Printf( "Book bookId : %d\n", book.bookId)
+func printBook(book *Books) {
+	fmt.Printf("Book title : %s\n", book.title)
+	fmt.Printf("Book author : %s\n", book.author)
+	fmt.Printf("Book subject : %s\n", book.subject)
+	fmt.Printf("Book bookId : %d\n", book.bookId)
 }

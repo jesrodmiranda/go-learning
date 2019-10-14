@@ -13,10 +13,10 @@ func main() {
 
 	x, y := swap("Jesus", "Rodriguez")
 
-	fmt.Printf("Name is %s %s", x , y)
+	fmt.Printf("Name is %s %s", x, y)
 }
 
-func swap (a string, b string) (string, string) {
+func swap(a string, b string) (string, string) {
 	return a, b
 }
 

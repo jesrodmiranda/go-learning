@@ -5,7 +5,7 @@ import "fmt"
 func imperative() int {
 	n, numElements, s := 1, 0, 0
 	for numElements < 10 {
-		if n * n % 5 == 0 {
+		if n*n%5 == 0 {
 			s += n
 			numElements++
 		}
@@ -17,13 +17,13 @@ func imperative() int {
 
 func main() {
 
-	sum := func (memo interface{}, el interface{}) interface{} {
+	sum := func(memo interface{}, el interface{}) interface{} {
 		return memo.(float64) + el.(float64)
 	}
-	pred := func (i interface{}) bool {
-		return (i.(uint64) * i.(uint64)) % 5 == 0
+	pred := func(i interface{}) bool {
+		return (i.(uint64)*i.(uint64))%5 == 0
 	}
-	createValues := func () []int {
+	createValues := func() []int {
 		values := make([]int, 100)
 		for num := 1; num <= 100; num++ {
 			values = append(values, num)

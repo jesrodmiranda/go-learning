@@ -20,7 +20,7 @@ func mainOne() {
 }
 
 func mainThree() {
-	var a, b , c = "Hello", 20.0, 3
+	var a, b, c = "Hello", 20.0, 3
 	d := 30
 	d = 40.0
 	e := d
@@ -62,12 +62,12 @@ func main() {
 	mainFour()
 	mainFive()
 	var a int
-	numbers := [6]int{1,2,4,3,5,6}
+	numbers := [6]int{1, 2, 4, 3, 5, 6}
 
 	fmt.Printf("numbers is %T\n", numbers)
 
 	for i, x := range numbers {
-		fmt.Printf("value of x = %d at %d\n", x,i)
+		fmt.Printf("value of x = %d at %d\n", x, i)
 	}
 
 	/* for loop execution */
@@ -79,4 +79,3 @@ func main() {
 		fmt.Printf("value of z is %d\n", z)
 	}
 }
-

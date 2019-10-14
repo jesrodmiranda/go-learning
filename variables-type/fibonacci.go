@@ -18,7 +18,7 @@ func fibonacciIter(n int64) int64 {
 	current, prev = 0, 1
 	for i := 0; i < int(n); i++ {
 		fmt.Printf("Current: %d Previous: %d\n", current, prev)
-		current, prev = current + prev, current
+		current, prev = current+prev, current
 	}
 	return current
 }
