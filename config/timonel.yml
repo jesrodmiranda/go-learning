@@ -1,0 +1,5 @@
+Author: "Jesus Rodriguez Miranda"
+AppName: "Timonel API Gateway"
+ServerConfig:
+  Host: "localhost"
+  Port: "8081"
